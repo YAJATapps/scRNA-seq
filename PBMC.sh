@@ -57,8 +57,8 @@ group=vcat(repeat(["group1"],inner=237), repeat(["group2"],inner=237), repeat(["
 
 
 # Algorithm971
-out_algorithm971 = algorithm971(input="/home/yajatapps3/Data.zst", dim=3,
-           rowmeanlist=joinpath(tmp, "Feature_LogMeans.csv"), cper=11629, scale="log")
+out_algorithm971 = algorithm971(input="/home/yajatapps3/Data.zst",
+           rowmeanlist=joinpath(tmp, "Feature_LogCPMEDMeans.csv"), colsumlist=joinpath(tmp, "Sample_NoCounts.csv"), dim=3, cper=11629, niter=2, scale="log")
 
 subplots(out_algorithm971, group)
 
