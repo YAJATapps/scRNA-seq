@@ -1,7 +1,10 @@
 # Installation (https://github.com/rikenbit/OnlinePCA.jl)
 # push the key "]" and type the following command.
 add https://github.com/rikenbit/OnlinePCA.jl
+add Blink
 add PlotlyJS
+add Distributions
+add DataFrames
 # After that, push Ctrl + C to leave from Pkg REPL mode
 
 # Preprocess of CSV
@@ -15,7 +18,7 @@ using DelimitedFiles
 tmp = mktempdir()
 
 # Summary of data
-# The Data.zst PBMC downloaded from Rikenbit website
+# The Data.zst PBMC downloaded from Rikenbit website (https://bioinformatics.riken.jp/onlinepca-data/real/PBMCs_Chromium/Data.zst)
 sumr(binfile="/home/yajatapps3/Data.zst", outdir=tmp)
 
 
