@@ -2,8 +2,7 @@
 
 Comparison of Deep Learning and PCA analysis for dimensionality reduction of scRNA-seq data
 
-This project will use three algorithms:
+This project will use two algorithms:
 
-- OnlinePCA
-- scvis
-- AENN
+- OnlinePCA (for PCA)
+- scvis (for Deep learning)
