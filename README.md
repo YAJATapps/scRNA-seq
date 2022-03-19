@@ -6,3 +6,16 @@ This project will use two algorithms:
 
 - OnlinePCA (for PCA)
 - scvis (for Deep learning)
+
+
+# Setup
+Enter julia environment by writing julia into terminal and paste the following commands to set up. After setting up the environment you can use the shell files. algorithm971.shs
+
+import Pkg;
+Pkg.add("https://github.com/rikenbit/OnlinePCA.jl")
+Pkg.add("ArgParse")
+Pkg.add("Blink")
+Pkg.add("PlotlyJS")
+Pkg.add("Distributions")
+Pkg.add("DataFrames")
+Pkg.add("ArgParse")
