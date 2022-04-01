@@ -17,4 +17,8 @@ df = pd.read_csv('output.csv', skiprows=1)
 df.to_csv('out.csv', index=False)  
 
 # output
-print("Successfully made csv file")
+print("Successfully made csv file: out.csv")
+
+# delete the intermediate csv file. the final file is named out.csv
+if os.path.exists("output.csv"):
+	os.remove("output.csv")
