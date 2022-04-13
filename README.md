@@ -13,10 +13,10 @@ Enter julia environment by writing julia into terminal and paste the following c
 
 ```
 import Pkg;
-Pkg.add("https://github.com/rikenbit/OnlinePCA.jl")
 Pkg.add("ArgParse")
 Pkg.add("Blink")
 Pkg.add("PlotlyJS")
 Pkg.add("Distributions")
 Pkg.add("DataFrames")
+]add https://github.com/rikenbit/OnlinePCA.jl
 ```
