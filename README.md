@@ -7,6 +7,7 @@ This project will use two algorithms:
 - OnlinePCA (for PCA)
 - scvis (for Deep learning)
 
+The bkp folder has some old scripts and img.
 
 # Setup
 Enter julia environment by writing julia into terminal and paste the following commands to set up. After setting up the environment you can use the shell files. algorithm971.sh
